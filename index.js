@@ -24,7 +24,7 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "Usage",
+            name: "usage",
             message: "what is your project Usage information?",
         },
         {
@@ -95,12 +95,12 @@ ${answers.usage}
 <a name="contribution"></a>
 ## Contribution
 
-${contribution}
+${answers.contribution}
 
 <a name="test"></a>
 ## Tests
 
-${test}
+${answers.test}
 
 <a name="license"></a>
 ## License
